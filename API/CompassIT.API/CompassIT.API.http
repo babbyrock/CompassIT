@@ -1,0 +1,6 @@
+@CompassIT.API_HostAddress = http://localhost:5134
+
+GET {{CompassIT.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

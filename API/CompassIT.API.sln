@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompassIT.Domain", "CompassIT.Domain\CompassIT.Domain.csproj", "{5A37BF6F-38F0-46AE-BE6F-84D6AFA7C3CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompassIT.Application", "CompassIT.Application\CompassIT.Application.csproj", "{23BA5C2B-4E53-4EF6-9B97-E8625344A674}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1B787749-4345-4534-AC2B-43B6C1B0312E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{EF5E3C94-5004-4476-B1D5-BFB5F86C06F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BE0D068E-09F0-4779-933B-4B00B77F7246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompassIT.Persistence", "CompassIT.Persistence\CompassIT.Persistence.csproj", "{E9A72BD4-EABC-45A2-B094-C041EEB6DB80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompassIT.API", "CompassIT.API\CompassIT.API.csproj", "{82181A69-82B9-49A4-A06E-DB175238A879}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A37BF6F-38F0-46AE-BE6F-84D6AFA7C3CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A37BF6F-38F0-46AE-BE6F-84D6AFA7C3CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A37BF6F-38F0-46AE-BE6F-84D6AFA7C3CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A37BF6F-38F0-46AE-BE6F-84D6AFA7C3CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23BA5C2B-4E53-4EF6-9B97-E8625344A674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BA5C2B-4E53-4EF6-9B97-E8625344A674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BA5C2B-4E53-4EF6-9B97-E8625344A674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BA5C2B-4E53-4EF6-9B97-E8625344A674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A72BD4-EABC-45A2-B094-C041EEB6DB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A72BD4-EABC-45A2-B094-C041EEB6DB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A72BD4-EABC-45A2-B094-C041EEB6DB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A72BD4-EABC-45A2-B094-C041EEB6DB80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82181A69-82B9-49A4-A06E-DB175238A879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82181A69-82B9-49A4-A06E-DB175238A879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82181A69-82B9-49A4-A06E-DB175238A879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82181A69-82B9-49A4-A06E-DB175238A879}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A37BF6F-38F0-46AE-BE6F-84D6AFA7C3CA} = {1B787749-4345-4534-AC2B-43B6C1B0312E}
+		{23BA5C2B-4E53-4EF6-9B97-E8625344A674} = {1B787749-4345-4534-AC2B-43B6C1B0312E}
+		{E9A72BD4-EABC-45A2-B094-C041EEB6DB80} = {EF5E3C94-5004-4476-B1D5-BFB5F86C06F0}
+		{82181A69-82B9-49A4-A06E-DB175238A879} = {BE0D068E-09F0-4779-933B-4B00B77F7246}
+	EndGlobalSection
+EndGlobal
