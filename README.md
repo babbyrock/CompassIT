@@ -60,3 +60,32 @@ src/
 │   └── ServiceExtensions/       # Métodos de extensão para configurar o serviço
 └── Presentation/                # Controllers e API
     └── Controllers/             # Controllers da API que expõem os endpoints
+```
+
+
+### Frontend (Angular)
+Além da implementação backend, também foi desenvolvida uma aplicação frontend utilizando Angular para gerenciamento dos produtos. O frontend interage com a API para realizar as operações de CRUD.
+
+Funcionalidades Frontend
+Exibição de Produtos: Lista os produtos com ID, Nome, Preço e Quantidade.
+
+Cadastro de Produtos: Permite criar novos produtos.
+
+Edição de Produtos: Permite editar produtos existentes.
+
+Exclusão de Produtos: Permite excluir produtos do inventário.
+
+```plaintext
+src/
+├── app/
+│   ├── components/produtos/         # Componente de produtos
+│   ├── services/produto.service.ts  # Serviço de comunicação com a API
+│   ├── app.module.ts                # Módulo principal
+│   └── app.component.ts             # Componente principal
+├── assets/                          # Arquivos estáticos
+└── environments/                    # Configurações de ambientes
+
+
+npm install
+ng serve
+```
