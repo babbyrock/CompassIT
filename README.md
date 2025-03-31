@@ -63,7 +63,7 @@ src/
 ```
 
 
-###Frontend (Angular)
+### Frontend (Angular)
 Além da implementação backend, também foi desenvolvida uma aplicação frontend utilizando Angular para gerenciamento dos produtos. O frontend interage com a API para realizar as operações de CRUD.
 
 Funcionalidades Frontend
