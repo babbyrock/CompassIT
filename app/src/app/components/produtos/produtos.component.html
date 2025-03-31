@@ -1,0 +1,30 @@
+<div class="container mt-5 p-4">
+  <mat-card class="main-card">
+    <h2 class="text-center">Produtos</h2>
+
+    <mat-table [dataSource]="produtos" class="mat-elevation-z8">
+      <ng-container matColumnDef="id">
+        <mat-header-cell *matHeaderCellDef> ID </mat-header-cell>
+        <mat-cell *matCellDef="let produto"> {{ produto.id }} </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="nome">
+        <mat-header-cell *matHeaderCellDef> Nome </mat-header-cell>
+        <mat-cell *matCellDef="let produto"> {{ produto.nome }} </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="preco">
+        <mat-header-cell *matHeaderCellDef> Preço </mat-header-cell>
+        <mat-cell *matCellDef="let produto"> R$ {{ produto.preco | number:'1.2-2' }} </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="quantidade">
+        <mat-header-cell *matHeaderCellDef> Quantidade </mat-header-cell>
+        <mat-cell *matCellDef="let produto"> {{ produto.quantidade }} </mat-cell>
+      </ng-container>
+
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let produto; columns: displayedColumns;" class="clickable-row"></mat-row>
+    </mat-table>
+  </mat-card>
+</div>
